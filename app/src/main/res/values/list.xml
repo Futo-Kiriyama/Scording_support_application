@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plain_array">
+        <item>テスト一覧</item>
+        <item>大問1</item>
+        <item>大問2</item>
+        <item>大問3</item>
+        <item>大問4</item>
+        <item>大問5</item>
+        <item>大問6</item>
+        <item>大問7</item>
+        <item>大問8</item>
+        <item>大問9</item>
+        <item>大問10</item>
+    </string-array>
+</resources>
