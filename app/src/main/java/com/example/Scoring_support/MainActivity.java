@@ -24,9 +24,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
-
-    //String dir = Environment.getDataDirectory().getPath();
-    private String dir = "/mnt/sdcard";
+    private String dir = Environment.getExternalStorageDirectory().getPath();
+    //private String dir = "/mnt/sdcard";
     File path0 = new File(dir + "/Regular_test/version_0/test_0");
     File path1 = new File(dir + "/Regular_test/version_0/test_1");
     File path2 = new File(dir + "/Regular_test/version_0/test_2");

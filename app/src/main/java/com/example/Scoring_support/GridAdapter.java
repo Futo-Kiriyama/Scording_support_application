@@ -13,8 +13,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import android.os.Environment;
-
 public class GridAdapter extends BaseAdapter {
 
     private Context context;
@@ -55,7 +53,7 @@ public class GridAdapter extends BaseAdapter {
                 .fit()
                 .centerCrop()
 //                .resize(ScreenWHalf, ScreenWHalf)
-//                .placeholder(R.drawable.placeholder)
+//                .placeholder(R.drawable.error)
                 .error(R.drawable.error)
                 .into(img);
 
